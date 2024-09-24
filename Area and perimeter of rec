@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main ()
+{
+   int l=8,b=4,area,p;
+   area=l*b;
+   p=2*(l+b);
+   cout<<"Area of rec is "<<area<<endl;
+   cout<<"Perimeter of rec is" <<p<<endl;
+   if(area>p)
+   {
+      cout<<"Area is greater than perimeter "<<endl;
+
+   }
+   else
+   {
+      cout<<"Perimeter is greater than area "<<endl;  
+   }
+   return 0;
+}
