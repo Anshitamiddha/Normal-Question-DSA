@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main ()
+{
+   if(a/1000==0)
+   {cout<<"Three Digit number"<<endl;
+      }
+         else
+       {
+        cout<<"Not a three digit number"<<endl;
+       }
+
+      return 0;
+}
