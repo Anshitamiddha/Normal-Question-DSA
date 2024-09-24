@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a;
+    cout<<"Enter number"<<endl;
+    cin>>a;
+    if(a%3==0 && a%5==0)
+    {
+        cout<<"yes"<<endl;
+
+    }
+    else
+    {
+        cout<<"No"<<endl;
+    }
+return 0;
+}
