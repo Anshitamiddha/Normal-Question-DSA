@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main ()
+{
+   int a;
+   cout<<"Enter any number"<<endl;
+   cin>>a;
+   if(a>0)
+  { cout<<"Absolute number"<<a<<endl;
+  }
+  else
+  { a=a*(-1);
+   cout<<" Ab num"<<a<<endl;
+  }
+
+      return 0;
+}
