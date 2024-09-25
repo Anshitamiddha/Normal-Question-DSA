@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int x,y,z;
+cout<<"ENter value of x"<<endl;
+cin>>x;
+cout<<"ENter value of y"<<endl;
+cin>>y;
+cout<<"ENter value of z"<<endl;
+cin>>z;
+if(x>y && x>z)
+{
+    cout<<"x is greater"<<x<<endl;
+}
+else if(y>x && y>z)
+{
+    cout<<"y is greater"<<y<<endl;
+}
+else
+{
+     cout<<"z is greater"<<z<<endl;
+}
+return 0;
+}
