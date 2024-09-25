@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int x,y;
+    cout<<"Enter value of x"<<endl;
+    cin>>x;
+    cout<<"Enter value of y"<<endl;
+    cin>>y;
+    if(x==0 && y!=0)
+    {
+        cout<<" lie on x axis"<<endl;
+    }
+    else if(y==0 && x!=0)
+    {
+        cout<<"Lie on y axis"<<endl;
+    }
+    else if (x==0 && y==0)
+    {
+        cout<<"Origin"<<endl;
+    }
+    else
+    {
+        cout<<"Lie in between the plian"<<endl;
+    }
+return 0;
+}
