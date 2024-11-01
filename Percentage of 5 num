@@ -1,0 +1,23 @@
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c,d,e,sum;
+    float avg,page;
+    cout<<"Enter num1"<<endl;
+    cin>>a;
+    cout<<"Enter num2"<<endl;
+    cin>>b;
+    cout<<"Enter num3"<<endl;
+    cin>>c;
+    cout<<"Enter num4"<<endl;
+    cin>>d;
+    cout<<"Enter num5"<<endl;
+    cin>>e;
+    sum=a+b+c+d+e;
+    //avg=sum/5;
+    page=(sum/5);
+    cout<<"Percentage of 5 numbers is= %f"<<page<<endl;
+    return 0;
+}
