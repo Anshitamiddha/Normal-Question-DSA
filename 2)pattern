@@ -8,10 +8,10 @@ for(i=1;i<=4;i++)
     int num=1;
     for(j=1;j<=4;j++)
     {
-        printf("%d",num);
+        cout<<num<<%d;
         num++;
     }
-    printf("\n");
+    cout<<"\n"<<endl;
 }
 return 0;
 }
