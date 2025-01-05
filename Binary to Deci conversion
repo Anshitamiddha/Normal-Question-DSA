@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int num=1000,rem,mul=1,ans=0;
+    while(num>0)
+    {
+        rem=num%10;
+        rem=rem*mul;
+        mul*=2;
+        ans+=rem;
+        
+
+    }
+    cout<<"Deci form of the Binary will be "<<ans<<endl;
+    return 0;
+}
