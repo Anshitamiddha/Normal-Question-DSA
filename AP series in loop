@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int n;
+    cout<<"Enter no of terms";
+    cin>>n;
+   /* Method 1
+   for(int i=1;i<=2*n-1;i+=2){
+        cout<<i<<endl;
+    }*/
+   //Method 2
+   int a=1;
+   for(int i=1;i<=n;i++){
+   cout<<a<<endl;
+   a+=2;// 2 is the common diff
+   }
+    return 0;
+}
