@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int a=1,b=1,n,c;
+    cout<<"Enter num of digits:";
+    cin>>n;
+    cout<<a<<endl;
+    cout<<b<<endl;
+    for(int i=1;i<=n-2;i++){
+        c=a+b;
+        cout<<c<<endl;
+        a=b;
+        b=c;
+        
+    }
+    return 0;
+}
