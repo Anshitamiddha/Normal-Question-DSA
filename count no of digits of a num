@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int rev,num,count=0;
+    cout<<"Enter num";
+    cin>>num;
+    while(num>0){
+        rev=num%10;
+        count++;
+        num/=10;
+    }
+    cout<<count<<endl;
+    return 0;
+}
