@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int a=4;
+    int b=6;
+    int* x=&a;
+    int* y=&b;
+    cout<<"Sum of two variable using pointers is:"<<*x+*y;
+    return 0; 
+}
