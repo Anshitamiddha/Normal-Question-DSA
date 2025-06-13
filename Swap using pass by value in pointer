@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+    //swapping two variables using pass by value
+    //we know in pass by value copy of v;aue is send and changes are not saved at original address
+    void swap(int a, int b){
+        int temp=a;
+        a=b;
+        b=temp;
+
+    }
+    int main(){
+        int y=5;
+        int x=6;
+     swap(x,y);
+     cout<<x;//gives output as 6, actual value doesn't changed
+     return 0;
+
+    }
